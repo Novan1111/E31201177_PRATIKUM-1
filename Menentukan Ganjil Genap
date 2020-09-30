@@ -1,0 +1,29 @@
+import java.util.Scanner;
+ 
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+ 
+/**
+ *
+ * @author novan
+ */
+public class MenampilkanBilanganGanjilDanGenap {
+    public static void main(String[] args) {
+        //TODO code aplication logic here
+        Scanner input = new Scanner(System.in);
+        int bilangan;
+        
+        System.out.println("Masukkan sebuah bilangan : ");
+        bilangan = input.nextInt();
+        
+        if(bilangan % 2 == 0){
+            System.out.println("Bilangan  " + bilangan + "adalah bilangan genap");
+        }else{
+            System.out.println("Bilangan " + bilangan + "adalah bilangan ganjil");
+            }
+    }
+}
+ 
